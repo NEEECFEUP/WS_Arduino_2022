@@ -6,7 +6,7 @@ void setup() {
 
 void loop() {
   
-  if(digitalRead(pinButton) == LOW){
+  if(digitalRead(pinButton) == HIGH){
     digitalWrite(pinLed, HIGH);
   }
   else{
